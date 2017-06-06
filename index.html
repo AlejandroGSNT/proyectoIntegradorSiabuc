@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+
+</head>
+<body>
+
+<header>
+
+	<!-- NavBar -->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><img src="img/logo2.png" width="40" width="40" alt="SIABUC"></a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.php">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="queEs.php">¿Qué es SIABUC?</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+</header>
+
+<!-- login -->
+<div class="imgBackground">
+
+	<div class="container">
+	<div class="login-container">
+            <div id="output"></div>
+            <div class="avatar"><img src="img/perfil.png" width="79" style="margin-top: 10px"></div>
+            <div class="form-box">
+                <form action="checkLogin.php" method="post">
+                    <input name="user" id="user" type="text" placeholder="usuario" required>
+                    <input type="password" name="password" id="password" placeholder="contraseña" required>
+                    <button class="btn btn-info btn-block login" type="submit">Iniciar sesión</button>
+                </form>
+            </div>
+        </div>
+
+	</div>
+</div>
+
+
+	<div class="footer" style="bottom: 0;">
+		<center>Desarrollado por MENSOFT</center>
+	</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/js.js"></script>
+
+</body>
+</html>

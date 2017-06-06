@@ -1,0 +1,42 @@
+.well{
+	margin-top: 10%;
+}
+.datos {
+	margin-left: -10px;
+	width: 50%;
+    -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+    border-radius: 25px;
+}
+
+.datos:focus {
+    width: 90%;
+	
+}
+.submit
+{
+	background-color: #0275d8;
+	color: white;
+	border-radius: 25px;
+	padding: 10px;
+	width: 80%;
+}
+.submit:hover
+{
+	background-color:  #005eaf;
+}
+.submit:focus
+{
+	background-color: #004482;
+}
+.card
+{
+	margin-top: 15%;
+	width: 30%;
+}
+.divisor
+{
+	border: 5px solid black;
+	width: 100%;
+	height: 1px;
+}

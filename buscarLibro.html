@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Prueba de PHP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styleApi.css">
+    <script src="js/jquery-3.2.1.min"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container card bg-faded text-center">
+        <div class="card-block">
+            <form action="apiGoogle.php" method="post" name="formu" id="formu" onsubmit="return initialize()">
+
+                    <h1> Buscar</h1>
+                    <p>
+                        <input placeholder="  Ingresar datos" type="text" name="nameBook" id="search" autofocus class="datos" />
+                    </p>
+
+                    <p>
+                        <input class="submit" id="submit" name="submit" type="submit" value="Buscar"/>
+                    </p>
+
+            </form>
+        </div>
+</body>
+
+</html>
